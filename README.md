@@ -16,6 +16,6 @@ the list is empty.
 
 Assumptions:
 - A tag must have a minimum length: 3 - since the smallest tags consist of
-a less-than sign; charachter; greater-than sign e.g. <x> . Any length less
+a less-than sign; charachter; greater-than sign. Any length less
 than this for a tag will give an Invalid output. This will also give tags with
-extra whitespaces an Invalid output such as "<div >".
+extra whitespaces an Invalid output.
