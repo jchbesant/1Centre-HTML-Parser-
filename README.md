@@ -1,4 +1,4 @@
-# 1Centre - HTML Parser - James Besant
+# 1Centre interview - HTML parser - James Besant
 20/01/21 
 
 HTML Parser using Python - First Attempt (No importing of modules)
