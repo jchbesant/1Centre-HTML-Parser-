@@ -8,8 +8,8 @@ closed tag) or "Invalid" if tags are not paired. Will also print "Invalid"
 if the rule "closing the most recent tag before closing older tags" is not
 followed.
 
-Using a Stack and the LIFO concept if an opening tag and closing tag are placed
-on top of one another and therefore closed successfully it will remove both tags
+Using a Stack and the LIFO concept if a closing tag is put in the list after a
+matching opening tag they have therefore closed successfully it will remove both tags
 from the list. The HTML document is therefore Valid if all the tags are popped and
 the list is empty.
 
