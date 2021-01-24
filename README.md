@@ -19,3 +19,7 @@ Assumptions:
 a less-than sign; charachter; greater-than sign. Any length less
 than this for a tag will give an Invalid output. This will also give tags with
 extra whitespaces an Invalid output.
+- Self-closing tags are given in the format <br/> or <div/>.
+
+I was not able to do any automated test as I am not familiar with doing that on Python. Sorry
+for the inconvenience. I tried to use pytest through PyCharm but was not sure how it worked with a function like this. 
