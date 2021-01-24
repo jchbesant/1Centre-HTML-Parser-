@@ -61,7 +61,8 @@ def html_parser(html_string):
     #Check if there are more tags left unmatched - if so return "Invalid"
     if len(tags_list) > 0:
         return invalid
-
+    
+    #If all conditions are met return Valid
     return valid
 
 def main():
