@@ -17,7 +17,7 @@ def html_parser(html_string):
     
     sc_tags = []
     
-    #Names of all the self-closing tags which will be disregarded in the programme
+    #Names of all the self-closing tags which will be disregarded in the validity check
     sc_tag_names = ["area", "base", "br", "col", "embed", "hr", "img", "input" \
                     "link", "meta", "param", "source", "track", "wbr"]
     
@@ -26,7 +26,7 @@ def html_parser(html_string):
     valid = "Valid"
     invalid = "Invalid"
     
-    #Loop through the string to until all tags are found
+    #Loop through the string to until all tags are found; also conditions to ignore tags such as "<>"
     for i in html_string.split():
         tag_count = i.count("<")
         while tag_count != 0:
