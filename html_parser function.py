@@ -8,6 +8,8 @@ followed.
 
 Assumed that self-closing tags are in the format <br/> like in the example.
 
+Also did not add a main() since I did not know the format it would be tested.
+
 """
 def html_parser(html_string):
     
@@ -53,9 +55,3 @@ def html_parser(html_string):
 
     return valid
 
-
-def main():
-    test = html_parser(invalid_test)
-    print(test)
-
-main()
