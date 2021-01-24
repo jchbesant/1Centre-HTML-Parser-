@@ -68,7 +68,7 @@ def html_parser(html_string):
 def main():
     """
     test = html_parser('HTML document')
-    #print(test)
+    print(test)
     
     """
 
